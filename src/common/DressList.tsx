@@ -20,7 +20,7 @@ export const DressList: React.FC<Props> = (props) => {
           .map((dress: ProductInfo) => (
             <div className="card" key={dress.id}>
               {dress.id}
-              <img src={dress?.picUrl} alt="dress" />
+              <img src={`${dress?.picUrl}`} alt="dress" />
               <div className="texts">
                 <p>{dress?.title}</p>
                 <h6 className="myCheckBox">

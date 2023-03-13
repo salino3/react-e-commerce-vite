@@ -20,7 +20,7 @@ export const ListAside: React.FC<Props> = (props) => {
         list &&
         list.map((item: ProductInfo) => (
           <div className={"listAside"} key={item.id}>
-            <img src={`/${item.picUrl}`} width="50" alt="dress" />
+            <img src={`${item.picUrl}`} width="50" alt="dress" />
             <p className="item1">
               <b>{item.title}</b>
             </p>
