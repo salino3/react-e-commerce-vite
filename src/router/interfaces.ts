@@ -9,5 +9,5 @@ export const SwitchRoutes: Routes = {
   man: "/man",
   info: "/info/:id"
 };
-
+ 
 export const { root, man, info } = SwitchRoutes;
