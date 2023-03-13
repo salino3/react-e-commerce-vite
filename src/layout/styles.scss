@@ -1,0 +1,45 @@
+.divHome {
+  margin-left: 1em;
+  margin-bottom: 3em;
+}
+
+.divHome div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14em, 20%));
+  padding: 1em;
+  z-index: 1;
+  gap: 2em;
+}
+
+.boxLinks {
+  display: grid;
+  grid-template-columns: 20% 20%;
+  margin-left: 3em;
+}
+
+.asideContainer1 {
+  float: right;
+  min-width: 15em;
+  width: 25%;
+  border: solid green 2px;
+  min-height: 90vh;
+  height: 100%;
+  background-color: rgb(228, 228, 63);
+}
+
+.asideContainer2 {
+  float: right;
+  width: 4em;
+  border: solid green 2px;
+  min-height: 90vh;
+  height: 100%;
+  background-color: rgb(228, 228, 63);
+}
+
+.btnAside {
+  border: none;
+}
+
+.btnAside:focus {
+  outline: none;
+}

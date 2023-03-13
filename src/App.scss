@@ -1,0 +1,28 @@
+
+
+
+.read-the-docs {
+  color: #888;
+}
+
+.divContainer{
+  display: grid;
+  grid-template-columns: 85% 15%;
+}
+
+.btnCart {
+  color: yellow;
+  background: red;
+  padding: 0.5em;
+  border-radius: 5px;
+  border: 0;
+}
+
+.btnCart:focus{
+  outline: none;
+}
+
+.btnCart:active{
+  font-size: 98%;
+
+}

@@ -1,0 +1,173 @@
+.myHeader {
+  position: sticky;
+  top: 0;
+  border: solid 2px blue;
+  background-color: orange;
+  border-radius: 5px;
+  margin: 0em 1em 1em;
+  padding-top: 1em;
+  z-index: 2;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+
+ & div > h3{
+    white-space: nowrap;
+  }
+
+  .box1Navbar {
+    display: grid;
+    grid-template-columns: auto auto;
+    color: white;
+  }
+
+  .lblInput {
+    color: white;
+    background-color: rgb(26, 159, 159);
+    padding: 0.2em;
+  }
+
+  .inputNav {
+    margin-top: 0.5em;
+  }
+
+  .btnInput {
+    margin: 0.5em;
+  }
+}
+
+aside {
+  * {
+    padding: 0.1em;
+    margin: 0.1em;
+  }
+
+  .txtEmpty {
+    margin: 0.5em;
+    color: teal;
+  }
+
+  .listAside {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0.3em;
+    border: solid green 1px;
+    padding: 0.2em;
+
+    .item1 {
+      margin-top: 0.5em;
+      color: teal;
+      
+      b {
+        position: relative;
+        top: 1em;
+      }
+    }
+
+      .item2{
+        cursor: pointer;
+      }
+  }
+}
+
+.divCard {
+  cursor: pointer;
+  text-align: start;
+  position: absolute;
+  z-index: 2;
+
+  & .divRows {
+    margin: 0.5em;
+    padding-left: 1em;
+    color: white;
+    border: solid 1px teal;
+    border-radius: 15px;
+    padding: 0.5em;
+    background: rgba(255, 255, 255, 0.288);
+
+    & b {
+      color: rgb(2, 222, 222);
+    }
+  }
+}
+
+.card {
+  border: solid 1px rgb(210, 82, 184);
+  color: rgb(210, 82, 184);
+  background-color: black;
+
+  border-radius: 10px;
+  min-height: 22em;
+
+  & img {
+    width: 180px;
+  }
+
+  .texts {
+    color: rgb(210, 82, 184);
+
+    .myCheckBox {
+      display: grid;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0;
+      padding: 0;
+
+      input[type="checkbox"] {
+        position: relative;
+        left: 3em;
+        bottom: 1.5em;
+        width: 25px;
+        height: 25px;
+      }
+    }
+  }
+}
+
+.navigateBack {
+ cursor: pointer;
+}
+
+
+
+.card2 {
+  border: solid 1px rgb(210, 82, 184);
+  color: rgb(210, 82, 184);
+  background-color: black;
+
+  border-radius: 10px;
+  padding: 5em;
+  padding-top: 0em;
+  min-height: 22em;
+  margin-bottom: 5em;
+
+  & img {
+    width: 25em;
+  }
+
+  .texts {
+    color: rgb(210, 82, 184);
+
+    span {
+      color: rgb(210, 82, 184);
+    }
+    .myCheckBox {
+      white-space: nowrap;
+
+      margin: 0;
+      padding: 0;
+
+      input[type="checkbox"] {
+        position: relative;
+        left: 3em;
+        bottom: -0.5em;
+        width: 25px;
+        height: 25px;
+      }
+    }
+  }
+}
