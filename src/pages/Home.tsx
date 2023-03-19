@@ -5,7 +5,7 @@ import { man, root } from "../router";
 
 export const Home: React.FC = () => {
 
-
+console.log("Holalala")
   return (
     <HomeContainer>
       <h5 className="boxLinks">
