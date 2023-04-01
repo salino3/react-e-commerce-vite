@@ -19,6 +19,8 @@
 
 .asideContainer1 {
   float: right;
+   position: relative;
+  z-index: 1;
   min-width: 15em;
   width: 25%;
   border: solid green 2px;
@@ -29,6 +31,8 @@
 
 .asideContainer2 {
   float: right;
+   position: relative;
+  z-index: 1;
   width: 4em;
   border: solid green 2px;
   min-height: 90vh;
