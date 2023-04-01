@@ -5,15 +5,16 @@
 
 .divHome div {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(14em, 20%));
+  grid-template-columns: repeat(auto-fit, minmax(15em, 22%));
   padding: 1em;
-  z-index: 1;
+  z-index: -1;
   gap: 2em;
 }
 
 .boxLinks {
   display: grid;
   grid-template-columns: 20% 20%;
+  gap: 3em;
   margin-left: 3em;
 }
 
