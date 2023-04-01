@@ -1,6 +1,7 @@
 import { AllAction } from "./interfaces";
 
 export const MyReducer = (state: any, action: AllAction) => {
+  
   switch (action.type) {
     case "LOAD_DATA":
       return {

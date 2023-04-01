@@ -9,7 +9,6 @@ export const InputNav: React.FC = () => {
   const navigate = useNavigate();
 
   const [first, setFirst] = React.useState<string>("");
-  const [toggle, setToggle] = React.useState<boolean>(false);
   const [toggleList, setToggleList] = React.useState<boolean>(true);
 
     const divCardRef = React.useRef<HTMLDivElement>(null);
@@ -42,7 +41,7 @@ export const InputNav: React.FC = () => {
       const handleClickOutside = (event: any) => {
         if (
           divCardRef.current 
-// con contains() se comprueba si ese elemento es un ancestro ancestro del elemento que fue clickeado
+// con contains() se comprueba si ese elemento es un ancestro del elemento que fue clickeado
          && !divCardRef.current.contains(event.target)
         ) {
           setToggleList(false);
@@ -59,7 +58,7 @@ export const InputNav: React.FC = () => {
       <ItemsForm handleChange={handleChange } first={first} />
       <div className="divCard" ref={divCardRef}>
         {toggleList && first ? (
-          <CardInput first={first} setFirst={setFirst} setToggle={setToggle} />
+          <CardInput first={first} setFirst={setFirst}  />
         ) : (
           ""
         )}

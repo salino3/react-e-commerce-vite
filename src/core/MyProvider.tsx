@@ -8,6 +8,7 @@ interface Props {
 };
 
 export const MyProvider: React.FC<Props> = ({ children }) => {
+  
   const [state, dispatch] = React.useReducer(MyReducer, Data);
 
   //* loadData

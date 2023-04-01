@@ -5,19 +5,17 @@ import "./stylesComponents.scss";
 interface Props {
   first: string;
   setFirst: React.Dispatch<React.SetStateAction<any>>;
-  setToggle: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 export const CardInput: React.FC<Props> = (props) => {
-  const { first, setFirst, setToggle } = props;
+  const { first, setFirst } = props;
 
   const { state } = useContext<MyState>(GlobalData);
   const { products } = state;
 
-  const onSearchCard = (event: any) => {
+  const onSearchCard = (event: number): void => {
 
     setFirst(event?.toString());
-    setToggle(true);
   };
 
   return (
