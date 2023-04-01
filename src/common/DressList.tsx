@@ -26,6 +26,7 @@ export const DressList: React.FC<Props> = (props) => {
                 <h6 className="myCheckBox">
                   <span>{dress.price} €</span>
                   <input
+                  className="input3"
                     type={"checkbox"}
                     onChange={() => CheckboxChange(dress?.id)}
                     checked={dress?.selected}

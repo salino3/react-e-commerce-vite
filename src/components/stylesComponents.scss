@@ -120,7 +120,7 @@ aside {
       padding: 0;
 
       input[type="checkbox"] {
-        position: relative;
+        z-index: 2;
         left: 3em;
         bottom: 1.5em;
         width: 25px;
