@@ -40,6 +40,8 @@ nav {
 }
 
 aside {
+    
+  margin-top: 1.2em;
   * {
     padding: 0.1em;
     margin: 0.1em;
@@ -50,6 +52,7 @@ aside {
     margin: 0.5em;
     color: teal;
   }
+ 
 
   .listAside {
     display: grid;
@@ -72,7 +75,17 @@ aside {
         cursor: pointer;
       }
   }
+ }
+
+.divListAside {
+  height: 18em;
+  overflow-y: scroll;
 }
+
+.divListAside::-webkit-scrollbar {
+  width: 0em; /* Ancho del scroll */
+}
+
 
 .divCard {
   cursor: pointer;
@@ -96,6 +109,7 @@ aside {
 }
 
 .card {
+  margin-top: 0.5em;
   border: solid 1px rgb(210, 82, 184);
   color: rgb(210, 82, 184);
   background-color: black;

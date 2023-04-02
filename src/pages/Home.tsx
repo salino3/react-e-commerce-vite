@@ -12,6 +12,10 @@ export const Home: React.FC = () => {
         <Link to={man}>Man</Link>
       </h5>
       <Outlet />
+      <h5 className="boxLinks">
+        <Link to={root}>Woman</Link>
+        <Link to={man}>Man</Link>
+      </h5>
     </HomeContainer>
   );
 };

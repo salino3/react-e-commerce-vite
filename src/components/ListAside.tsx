@@ -11,7 +11,7 @@ export const ListAside: React.FC<Props> = (props) => {
   const { list, CheckboxChange } = props;
 
   return (
-    <div>
+    <div className="divListAside">
       {!list || list.length < 1 ? (
         <h5 className="txtEmpty">
           <u>The Cart is Empty</u>
@@ -19,7 +19,7 @@ export const ListAside: React.FC<Props> = (props) => {
       ) : (
         list &&
         list.map((item: ProductInfo) => (
-          <div className={"listAside"} key={item.id}>
+          <div className="listAside" key={item.id}>
             <img src={`${item.picUrl}`} width="50" alt="dress" />
             <p className="item1">
               <b>{item.title}</b>
