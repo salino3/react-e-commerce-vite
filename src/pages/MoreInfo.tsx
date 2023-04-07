@@ -16,12 +16,15 @@ export const MoreInfo: React.FC = () => {
 if (product) {
   return (
     <div className="m-auto ">
-      <h5 className='navigateBack text-center text-info m-1 mb-3' onClick={() => navigate(-1)}>
+      <h5
+        className="navigateBack text-center text-info m-1 mb-3"
+        onClick={() => navigate(-1)}
+      >
         <u>Go back</u>
       </h5>
       <div className="card2 ">
         <div className="m-1">{product?.id}</div>
-        <img src={`./${product?.picUrl}`} alt="product" />
+        <img src={`../../public/assets/${product?.picUrl}`} alt="product" />
         <div className="texts">
           <h5 className="text-success m-2">
             title: <span>{product?.title}</span>

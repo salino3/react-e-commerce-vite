@@ -4,7 +4,6 @@ import sass from "sass";
 
 export default defineConfig({
   base: "./",
-
   plugins: [react()],
   css: {
     preprocessorOptions: {
@@ -13,5 +12,5 @@ export default defineConfig({
       },
     },
   },
-  assetsInclude: ["**/*.svg", "**/*.png", "./info/*.jpg", "**/*.gif"],
+  // assetsInclude: ["**/*.svg", "**/*.png", "**/*.jpg", "**/*.gif"],
 });
