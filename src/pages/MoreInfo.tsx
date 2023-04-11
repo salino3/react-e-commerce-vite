@@ -21,7 +21,7 @@ if (product) {
         onClick={() => navigate(-1)}
       >
         <u>Go back</u>
-      </h5>
+      </h5> 
       <div className="card2 ">
         <div className="m-1">{product?.id}</div>
         <img src={`../../public/assets/${product?.picUrl}`} alt="product" />
