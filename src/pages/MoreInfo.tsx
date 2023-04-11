@@ -23,7 +23,7 @@ export const MoreInfo: React.FC = () => {
         </h5>
         <div className="card2 ">
           <div className="m-1">{product?.id}</div>
-          <img src={`/info/${product?.picUrl}`} alt="product" />
+          <img src={`/${product?.picUrl}`} alt="product" />
           <div className="texts">
             <h5 className="text-success m-2">
               title: <span>{product?.title}</span>
