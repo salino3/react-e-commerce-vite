@@ -1,5 +1,5 @@
 import React from 'react';
-import { DressList } from '../common/DressList';
+import { DressList } from '../common';
 import { GlobalData, MyState } from '../core';
 import { HomeContainer } from '../layout';
 
