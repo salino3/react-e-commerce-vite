@@ -1,21 +1,16 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 import { HomeContainer } from "../layout";
-import { Link, Outlet } from "react-router-dom";
 import { man, root } from "../router";
+import { Links } from "../common";
 
 export const Home: React.FC = () => {
 
   return (
     <HomeContainer>
-      <h5 className="boxLinks">
-        <Link to={root}>Woman</Link>
-        <Link to={man}>Man</Link>
-      </h5>
+      <Links root={root} man={man} />
       <Outlet />
-      <h5 className="boxLinks">
-        <Link to={root}>Woman</Link>
-        <Link to={man}>Man</Link>
-      </h5>
+      <Links root={root} man={man} />
     </HomeContainer>
   );
 };

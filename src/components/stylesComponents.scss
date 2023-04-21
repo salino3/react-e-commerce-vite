@@ -45,7 +45,7 @@ aside {
   * {
     padding: 0.1em;
     margin: 0.1em;
-  z-index: 3;
+    z-index: 3;
   }
 
   .txtEmpty {
@@ -64,15 +64,18 @@ aside {
     .item1 {
       margin-top: 0.5em;
       color: teal;
+      font-family:  fantasy, 'Franklin Gothic Medium',;
       
-      b {
+      span {
         position: relative;
-        top: 1em;
+        top: 0.3em;
+        width: 100%;
       }
     }
 
       .item2{
         cursor: pointer;
+        float: right;
       }
   }
  }

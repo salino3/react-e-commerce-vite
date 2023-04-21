@@ -5,7 +5,7 @@ import "./stylesComponents.scss";
 interface Props {
   list: ProductInfo[];
   CheckboxChange: (id: number) => void;
-}
+};
 
 export const ListAside: React.FC<Props> = (props) => {
   const { list, CheckboxChange } = props;
@@ -22,7 +22,7 @@ export const ListAside: React.FC<Props> = (props) => {
           <div className="listAside" key={item.id}>
             <img src={`/${item.picUrl}`} width="50" alt="dress" />
             <p className="item1">
-              <b>{item.title}</b>
+              <span>{item.title}</span>
             </p>
             <i
               className="bi bi-trash item1 item2"

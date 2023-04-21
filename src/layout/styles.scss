@@ -14,8 +14,19 @@
 .boxLinks {
   display: grid;
   grid-template-columns: 20% 20%;
-  gap: 3em;
+  gap: 4em;
   margin-left: 3em;
+  font-family: Montserrat;
+  font-style: Medium;
+  font-size: 16px;
+
+    button {
+      background-color: #F6B750;
+      border-radius: 20px;
+      width: 6rem;
+      color: #212429;
+    
+   }
 }
 
 .asideContainer1 {

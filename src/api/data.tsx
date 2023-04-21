@@ -3,7 +3,7 @@ import { ProductInfo } from "../core";
 export const Data: ProductInfo[] = [
   {
     id: 1,
-    picUrl: "./assets/ropa6.jpg",
+    picUrl: "./assets/woman_1.jpg",
     title: "Shirt woman",
     selected: false,
     price: 40,
@@ -11,7 +11,7 @@ export const Data: ProductInfo[] = [
   },
   {
     id: 2,
-    picUrl: "./assets/ropa18.jpg",
+    picUrl: "./assets/woman_2.jpg",
     title: "T-shirt woman",
     selected: false,
     price: 40,
@@ -19,7 +19,7 @@ export const Data: ProductInfo[] = [
   },
   {
     id: 3,
-    picUrl: "./assets/ropa10.jpg",
+    picUrl: "./assets/woman_3.jpg",
     title: "T-shirt woman",
     selected: false,
     price: 45,
@@ -27,7 +27,7 @@ export const Data: ProductInfo[] = [
   },
   {
     id: 4,
-    picUrl: "./assets/ropa17.jpg",
+    picUrl: "./assets/woman_4.jpg",
     title: "Shirt",
     selected: false,
     price: 90,
@@ -35,7 +35,7 @@ export const Data: ProductInfo[] = [
   },
   {
     id: 5,
-    picUrl: "./assets/ropa5.jpg",
+    picUrl: "./assets/woman_5.jpg",
     title: "Jacket",
     selected: false,
     price: 100,
@@ -43,7 +43,7 @@ export const Data: ProductInfo[] = [
   },
   {
     id: 6,
-    picUrl: "./assets/ropa20.jpg",
+    picUrl: "./assets/woman_6.jpg",
     title: "Shirt woman",
     selected: false,
     price: 90,
@@ -51,7 +51,7 @@ export const Data: ProductInfo[] = [
   },
   {
     id: 7,
-    picUrl: "./assets/ropa22.jpg",
+    picUrl: "./assets/woman_7.jpg",
     title: "Shirt woman spring",
     selected: false,
     price: 90,
@@ -59,7 +59,7 @@ export const Data: ProductInfo[] = [
   },
   {
     id: 8,
-    picUrl: "./assets/ropa19.jpg",
+    picUrl: "./assets/woman_8.jpg",
     title: "Dress",
     selected: false,
     price: 150,
@@ -67,7 +67,7 @@ export const Data: ProductInfo[] = [
   },
   {
     id: 9,
-    picUrl: "./assets/ropa7.jpg",
+    picUrl: "./assets/man_1.jpg",
     title: "T-shirt man",
     selected: false,
     price: 50,
@@ -75,7 +75,7 @@ export const Data: ProductInfo[] = [
   },
   {
     id: 10,
-    picUrl: "./assets/ropa25.jpg",
+    picUrl: "./assets/man_2.jpg",
     title: "T-shirt man",
     selected: false,
     price: 50,
@@ -83,7 +83,7 @@ export const Data: ProductInfo[] = [
   },
   {
     id: 11,
-    picUrl: "./assets/ropa8.jpg",
+    picUrl: "./assets/man_3.jpg",
     title: "Set Shirts",
     selected: false,
     price: 130,
@@ -91,7 +91,7 @@ export const Data: ProductInfo[] = [
   },
   {
     id: 12,
-    picUrl: "./assets/ropa9.jpg",
+    picUrl: "./assets/man_4.jpg",
     title: "Article man colorful",
     selected: false,
     price: 60,
@@ -99,7 +99,7 @@ export const Data: ProductInfo[] = [
   },
   {
     id: 13,
-    picUrl: "./assets/ropa11.jpg",
+    picUrl: "./assets/man_5.jpg",
     title: "Shirt",
     selected: false,
     price: 80,
@@ -107,7 +107,7 @@ export const Data: ProductInfo[] = [
   },
   {
     id: 14,
-    picUrl: "./assets/shoes2.jpg",
+    picUrl: "./assets/man_6.jpg",
     title: "Shoes",
     selected: false,
     price: 150,
@@ -115,7 +115,7 @@ export const Data: ProductInfo[] = [
   },
   {
     id: 15,
-    picUrl: "./assets/flipflop.jpg",
+    picUrl: "./assets/man_7.jpg",
     title: "Flip flop",
     selected: false,
     price: 25,
@@ -123,7 +123,7 @@ export const Data: ProductInfo[] = [
   },
   {
     id: 16,
-    picUrl: "./assets/ropa12.jpg",
+    picUrl: "./assets/man_8.jpg",
     title: "Trousers",
     selected: false,
     price: 100,
