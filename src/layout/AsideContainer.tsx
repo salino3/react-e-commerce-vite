@@ -1,4 +1,6 @@
 import React from "react";
+import { useMediaQuery } from "react-responsive";
+
 
 interface Props {
   children: JSX.Element | JSX.Element[];
@@ -6,7 +8,9 @@ interface Props {
 
 export const AsideContainer: React.FC<Props> = ({ children }) => {
 
-  const [toggleBtn, setToggleBtn] = React.useState(true);
+   const isMobile: boolean = useMediaQuery({ maxWidth: 500 });
+
+  const [toggleBtn, setToggleBtn] = React.useState(!isMobile);
  
     return (
       <aside
