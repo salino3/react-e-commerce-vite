@@ -9,7 +9,7 @@ export const NavBar: React.FC = () => {
       <div className="d-flex mx-5 ">
         <div className="m-3 mx-5">
           <Link to={"/"}>
-            <button className=" btn btn-primary px-4" >
+            <button className=" btn btn-success px-4" >
               <i className="bi bi-house-fill"></i>{" "}
             </button>
           </Link>

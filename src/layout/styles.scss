@@ -31,6 +31,7 @@
 
 .asideContainer1 {
   
+  
   float: right;
    position: relative;
 
@@ -40,7 +41,9 @@
   border: solid green 2px;
   min-height: 90vh;
   height: 100%;
-  background-color: rgb(228, 228, 63);
+  // background-color: rgb(228, 228, 63);
+  // background-color: #F6B750;
+ 
 
    .box-aside{
     position: fixed;
@@ -55,7 +58,7 @@
   border: solid green 2px;
   min-height: 90vh;
   height: 100%;
-  background-color: rgb(228, 228, 63);
+  // background-color: rgb(228, 228, 63);
 
   .box-aside{
     position: fixed;
