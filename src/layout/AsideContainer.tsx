@@ -9,19 +9,21 @@ export const AsideContainer: React.FC<Props> = ({ children }) => {
   const [toggleBtn, setToggleBtn] = React.useState(true);
  
     return (
-      <aside className={` ${toggleBtn ? "asideContainer1" : "asideContainer2"}`} >
-      <div className="box-aside">
-        <button
-          className="  text-success rounded bg-warning  m-1 btnAside"
-          onClick={() => setToggleBtn(!toggleBtn)}
+      <aside
+        className={` ${toggleBtn ? "asideContainer1" : "asideContainer2"}`}
+      >
+        <div className="box-aside">
+          <button
+            className="  text-success rounded bg-warning  m-1 btnAside"
+            onClick={() => setToggleBtn(!toggleBtn)}
           >
-          <h5>
-            {toggleBtn ? ">>" : "<<"}
-            <i className="bi bi-cart4" />
-          </h5>
-        </button>
-        {toggleBtn && children}
-          </div>
+            <h5>
+              {toggleBtn ? ">>" : "<<"}
+              <i className="bi bi-cart4" style={{ cursor: "pointer" }} />
+            </h5>
+          </button>
+          {toggleBtn && children}
+        </div>
       </aside>
     );
 };

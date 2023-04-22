@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { GlobalData, MyState, ProductInfo } from "../core";
+import {HeartCheckbox} from "../common/HeartCheckbox";
 
 export const MoreInfo: React.FC = () => {
   const { state, CheckboxChange } = React.useContext<MyState>(GlobalData);
@@ -29,11 +30,11 @@ export const MoreInfo: React.FC = () => {
               title: <span>{product?.title}</span>
             </h5>
             <h6 className="myCheckBox text-success m-2">
-              Price: <span>{product?.price} €</span>
-              <input
-                type={"checkbox"}
-                onChange={() => CheckboxChange(product?.id)}
-                checked={product?.selected}
+              Price: <span>{product?.price} €</span> <br />
+              <HeartCheckbox
+                selected={product?.selected}
+                id={product?.id}
+                CheckboxChange={CheckboxChange}
               />
             </h6>
           </div>

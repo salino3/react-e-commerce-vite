@@ -4,3 +4,4 @@ export * from "./NavBar";
 export * from "./ListAside";
 export * from "./ItemsForm";
 export * from "./CardInput";
+export * from "./Footer";

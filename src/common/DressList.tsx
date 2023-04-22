@@ -1,5 +1,6 @@
 import React from "react";
 import { ProductInfo } from "../core";
+import {HeartCheckbox} from "./HeartCheckbox";
 
 interface Props {
   dresses: ProductInfo[];
@@ -25,11 +26,10 @@ export const DressList: React.FC<Props> = (props) => {
                 <p>{dress?.title}</p>
                 <h6 className="myCheckBox">
                   <span>{dress.price} €</span>
-                  <input
-                  className="input3"
-                    type={"checkbox"}
-                    onChange={() => CheckboxChange(dress?.id)}
-                    checked={dress?.selected}
+                  <HeartCheckbox
+                    selected={dress?.selected}
+                    id={dress?.id}
+                    CheckboxChange={CheckboxChange}
                   />
                 </h6>
               </div>
