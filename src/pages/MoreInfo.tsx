@@ -30,7 +30,7 @@ export const MoreInfo: React.FC = () => {
               title: <span>{product?.title}</span>
             </h5>
             <h6 className="myCheckBox text-success m-2">
-              Price: <span>{product?.price} €</span>
+              Price: <span>{product?.price} €</span> <br />
               <HeartCheckbox
                 selected={product?.selected}
                 id={product?.id}

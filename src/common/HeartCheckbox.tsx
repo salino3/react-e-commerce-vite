@@ -14,9 +14,10 @@ export const HeartCheckbox: React.FC<HeartCheckboxProps> = (props) => {
   };
 
   return (
-      <label onClick={handleClick}>
-        {selected && <i className="bi bi-heart-fill"></i> || 
-                     <i className="bi bi-heart "></i> }
-      </label>
+    <label style={{ cursor: "pointer" }} onClick={handleClick}>
+      {(selected && <i className="bi bi-heart-fill"></i>) || (
+        <i className="bi bi-heart"></i>
+      )}
+    </label>
   );
 };
