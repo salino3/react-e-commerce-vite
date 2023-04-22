@@ -205,11 +205,15 @@ aside {
   grid-template-rows: repeat(4, auto);
   padding: 0em 1em;
   background-color: black;
-
+  
   & > div {
-    border: solid 2px white;  
     width: 10em;
     height: 5em;
     width: 100%;
+    display: grid;
+    place-items: center; 
+    grid-template-columns: 30% 70%;
+    
   }
+
 }
