@@ -8,6 +8,13 @@
 .divContainer{
   display: grid;
   grid-template-columns: 85% 15%;
+
+  //  @media (max-500px){
+
+  //    & > :last-child {
+  //       align-self: flex-end;
+  //     }
+  //   }
 }
 
 .btnCart {

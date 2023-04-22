@@ -1,7 +1,7 @@
 import { MyProvider } from './core';
 import {BrowserRouter} from 'react-router-dom';
 import { AppRouter } from './router';
-import { Header } from './components';
+import { Footer, Header } from './components';
 import './App.scss';
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <AppRouter />
+        <Footer />
       </BrowserRouter>
     </MyProvider>
   );
