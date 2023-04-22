@@ -4,7 +4,7 @@
   border: solid 2px rgb(210, 82, 184);
   background-color: black;
   border-radius: 5px;
-  margin: 0em 0em 1em;
+  margin-bottom: 1em;
   padding-top: 1em;
   z-index: 3;
 }
@@ -42,19 +42,9 @@ nav {
 
 aside {
     
-  // *:first-child {
-  //   opacity: 1;
-  // }
-  // &:not(:first-child) {
-  //   opacity: 0.5;
-  // }
-
-
-
- //  opacity: 0.5;
- background: rgba(133, 2, 2, 0.76);
  background: rgba(255, 255, 255, 0.221);
   margin-top: 1.2em;
+
 
   * {
     padding: 0.1em;
@@ -204,6 +194,8 @@ aside {
     }
   }
 
+ 
+
 }
 
 .footer_container {
@@ -230,3 +222,15 @@ aside {
   color: beige;
   font-family: fantasy, 'Franklin';
 }
+
+
+ @media (max-width: 500px) {
+
+  .card2 {
+
+  img {
+
+    width: 15em;
+    }
+   }
+  }

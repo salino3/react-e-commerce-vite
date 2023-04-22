@@ -15,7 +15,7 @@ export const MoreInfo: React.FC = () => {
 
   if (product) {
     return (
-      <div className="m-auto ">
+      <div className="m-auto">
         <h5
           className="navigateBack text-center text-info m-1 mb-3"
           onClick={() => navigate(-1)}
