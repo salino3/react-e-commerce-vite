@@ -10,7 +10,7 @@ export const ItemsForm: React.FC<Props> = (props) => {
 
   return (
     <>
-      <label htmlFor="product" className="text-success bg-white px-1 rounded">
+      <label htmlFor="product" className="text-success px-1 rounded">
         Look for with number or title
       </label>
       <br />
@@ -18,7 +18,7 @@ export const ItemsForm: React.FC<Props> = (props) => {
         onChange={handleChange}
         type="text"
         value={first || ""}
-        name="product"
+        id='product'
         required
       />
       <button

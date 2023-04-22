@@ -10,8 +10,7 @@ export const AsideContainer: React.FC<Props> = ({ children }) => {
  
     return (
       <aside
-        className={` rounded ${toggleBtn ? "asideContainer1" : "asideContainer2"}`}
-      >
+        className={` rounded ${toggleBtn ? "asideContainer1" : "asideContainer2"}`}>
           <div className="box-aside">
             <button
               className="  text-success rounded bg-warning  m-1 btnAside"

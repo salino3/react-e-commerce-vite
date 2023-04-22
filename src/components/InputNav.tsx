@@ -1,7 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { CardInput } from "./CardInput";
-import { ItemsForm } from "./ItemsForm";
+import { CardInput, ItemsForm } from ".";
 import "./stylesComponents.scss";
 
 export const InputNav: React.FC = () => {
