@@ -1,13 +1,14 @@
 .myHeader {
   position: sticky;
   top: 0;
-  border: solid 2px blue;
-  background-color: orange;
+  border: solid 2px rgb(210, 82, 184);
+  background-color: black;
   border-radius: 5px;
-  margin: 0em 1em 1em;
+  margin: 0em 0em 1em;
   padding-top: 1em;
   z-index: 3;
 }
+
 
 nav {
   display: grid;
@@ -41,7 +42,20 @@ nav {
 
 aside {
     
+  // *:first-child {
+  //   opacity: 1;
+  // }
+  // &:not(:first-child) {
+  //   opacity: 0.5;
+  // }
+
+
+
+ //  opacity: 0.5;
+ background: rgba(133, 2, 2, 0.76);
+ background: rgba(255, 255, 255, 0.221);
   margin-top: 1.2em;
+
   * {
     padding: 0.1em;
     margin: 0.1em;
@@ -64,7 +78,7 @@ aside {
     .item1 {
       margin-top: 0.5em;
       color: teal;
-      font-family:  fantasy, 'Franklin Gothic Medium',;
+      font-family:  fantasy, 'Franklin Gothic Medium';
       
       span {
         position: relative;
@@ -190,13 +204,6 @@ aside {
     }
   }
 
-  //   @media (max-500px){
-
-  //      & img {
-  //   width: 5em;
-  // }
-    
-  //   }
 }
 
 .footer_container {
@@ -216,4 +223,10 @@ aside {
     
   }
 
+}
+
+.btn_input {
+  background: rgb(193, 61, 167);
+  color: beige;
+  font-family: fantasy, 'Franklin';
 }

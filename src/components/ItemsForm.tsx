@@ -23,7 +23,7 @@ export const ItemsForm: React.FC<Props> = (props) => {
       />
       <button
         disabled={ first ? false : true}
-        className="btn btn-primary m-1" >
+        className="btn btn_input m-1" >
         Search
       </button>
     </>
