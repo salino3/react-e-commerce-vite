@@ -77,6 +77,9 @@ aside {
       
       margin-top: 0.5em;
       color: teal;
+      display: flex;
+      align-items: center;
+      text-align: center;
       font-family:  fantasy, 'Franklin Gothic Medium';
       
       span {
@@ -86,11 +89,16 @@ aside {
       }
     }
 
+    .box_bi_trash {
+      display: flex;
+      justify-content: flex-end;
+    }
+
       .item2{
         cursor: pointer;
         float: right;
       }
-   }
+    }
 
       @media (max-width: 500px) {
       height: 14em;
@@ -98,7 +106,6 @@ aside {
    }
   }
  }
-
 
 
 .divListAside::-webkit-scrollbar {

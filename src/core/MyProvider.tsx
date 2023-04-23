@@ -39,6 +39,7 @@ export const MyProvider: React.FC<Props> = ({ children }) => {
     [state, dispatch]
   );
 
+
   //* DeselectAll
   const DeselectAll = React.useCallback(() => {
     const newProducts = state?.products?.map((product: ProductInfo) => ({
@@ -50,6 +51,14 @@ export const MyProvider: React.FC<Props> = ({ children }) => {
     });
   }, [state, dispatch]);
 
+  //* animate__jello
+  React.useEffect(() => {
+    const button = document.querySelector(".btnAside");
+    if (button) {
+      button.classList.add("animate__jello");
+      setTimeout(() => button.classList.remove("animate__jello"), 500);
+    };
+  }, [state.products]);
   
   return (
     <GlobalData.Provider
