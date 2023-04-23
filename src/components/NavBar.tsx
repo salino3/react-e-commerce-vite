@@ -14,7 +14,7 @@ export const NavBar: React.FC = () => {
             </button>
           </Link>
         </div>
-        <h3 className="text-info">e-commerce </h3>{" "}
+        <div className="text-info"><img src="/assets/onix-1.jpg" width={140} height={70} alt="onix" /> </div>
       </div>
       <div className="divNavComponents">
         <InputNav />
