@@ -193,9 +193,6 @@ aside {
       }
     }
   }
-
- 
-
 }
 
 .footer_container {
@@ -217,14 +214,28 @@ aside {
 
 }
 
+.labelproduct {
+  position: relative;
+  top: 0.5em;
+}
+
 .btn_input {
-  background: rgb(193, 61, 167);
-  color: beige;
+  color: rgb(193, 61, 167);
+  background-color: transparent;
+  border-color: rgb(193, 61, 167);
+
   font-family: fantasy, 'Franklin';
 }
 
 
  @media (max-width: 500px) {
+
+ .content_1{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: 2em;
+ }
 
   .card2 {
 

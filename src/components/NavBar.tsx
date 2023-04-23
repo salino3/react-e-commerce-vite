@@ -6,7 +6,7 @@ import "./stylesComponents.scss";
 export const NavBar: React.FC = () => {
   return (
     <nav className=" pb-2 ">
-      <div className="d-flex mx-5 ">
+      <div className="d-flex mx-5 content_1">
         <div className="m-3 mx-5">
           <Link to={"/"}>
             <button className=" btn btn-success px-4" >
