@@ -14,7 +14,7 @@ export const AppRouter: React.FC = () => {
           <Route path={man} element={<ManPage />} />
         </Route>
         <Route path={info} element={<MoreInfo />} />
-        <Route path={'/*'} element={<PageNotFound />} />
+        <Route path={"/*"} element={<PageNotFound />} />
       </Routes>
       <div>
         <Aside />

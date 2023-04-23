@@ -10,8 +10,8 @@ export const ItemsForm: React.FC<Props> = (props) => {
 
   return (
     <>
-      <label htmlFor="product" className="text-success px-1 rounded">
-        Look for with number or title
+      <label htmlFor="product" className="text-success px-1 labelproduct rounded">
+        Text number or title item
       </label>
       <br />
       <input
@@ -22,6 +22,7 @@ export const ItemsForm: React.FC<Props> = (props) => {
         required
       />
       <button
+        type='submit'
         disabled={ first ? false : true}
         className="btn btn_input m-1" >
         Search

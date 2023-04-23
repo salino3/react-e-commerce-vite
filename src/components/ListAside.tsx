@@ -24,13 +24,15 @@ export const ListAside: React.FC<Props> = (props) => {
             <p className="item1">
               <span>{item.title}</span>
             </p>
+            <div className="box_bi_trash">
             <i
               className="bi bi-trash item1 item2"
               onClick={() => {
                 CheckboxChange(item.id);
               }}
               style={{ fontSize: "2em" }}
-            ></i>
+              ></i>
+              </div>
           </div>
         ))
       )}
