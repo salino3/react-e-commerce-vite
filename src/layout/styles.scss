@@ -31,35 +31,30 @@
 
 .asideContainer1 {
   
-  
   float: right;
-   position: relative;
-
+  position: relative;
   z-index: 2;
   min-width: 15em;
   width: 25%;
   border: solid green 2px;
   min-height: 90vh;
-  height: 100%;
-  // background-color: rgb(228, 228, 63);
-  // background-color: #F6B750;
+  height: calc(100% - 1.2em);
  
-
    .box-aside{
     position: fixed;
   }
+
 }
 
 .asideContainer2 {
   position: relative;
   float: right;
+  min-height: 90vh;
+  height: calc(100% - 1.2em);
   z-index: 2;
   width: 4em;
   border: solid green 2px;
-  min-height: 90vh;
-  height: 100%;
-  // background-color: rgb(228, 228, 63);
-
+  
   .box-aside{
     position: fixed;
   }
@@ -67,8 +62,12 @@
 
 .btnAside {
   border: none;
+  opacity: 0.8;
+  background-color: #F6B750;
+
 }
 
 .btnAside:focus {
   outline: none;
+  opacity: 1;
 }

@@ -17,7 +17,7 @@ export const AsideContainer: React.FC<Props> = ({ children }) => {
         className={` rounded ${toggleBtn ? "asideContainer1" : "asideContainer2"}`}>
           <div className="box-aside">
             <button
-              className="  text-success rounded bg-warning  m-1 btnAside"
+              className="  text-success rounded  m-1 btnAside"
               onClick={() => setToggleBtn(!toggleBtn)}
             >
               <h5>
